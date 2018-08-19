@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: RoughRakoonin;
+    src: url(./Fonts/roughrakoonin.ttf);
+}
+
 body {
   margin: 0px;
   font-family: 'segoe ui';
@@ -20,6 +25,7 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
+  font-family: RoughRakoonin;
   font-size: 22px;
   color: #fff;
   padding: 10px 10px 10px 10px;
@@ -94,7 +100,8 @@ body {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
-}h1 {
+}
+h1 {
 	color: blue;
 }
 p {
