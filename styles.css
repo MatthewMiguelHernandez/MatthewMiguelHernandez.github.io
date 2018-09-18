@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ee1122;
+  background: #029679;
 }
 
 .tiles,
@@ -48,7 +48,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0 9.6rem 9.6rem 0;
-  border-color: transparent #ee1122 transparent transparent;
+  border-color: transparent #029679 transparent transparent;
 }
 .tiles::after {
   left: 0;
@@ -58,7 +58,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 9.6rem 0 0 9.6rem;
-  border-color: transparent transparent transparent #ee1122;
+  border-color: transparent transparent transparent #029679;
 }
 
 .tile {
@@ -105,7 +105,7 @@ body {
 .tile__img > .img-wrapper {
   width: 4.5rem;
   height: 4.5rem;
-  border: 0.6rem solid #ee1122;
+  border: 0.6rem solid #029679;
   -webkit-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
   overflow: hidden;
@@ -142,7 +142,7 @@ body {
 .tile__body,
 .tile__btn {
   position: relative;
-  background-color: #ee1122;
+  background-color: #029679;
   color: white;
   margin: 0;
   padding-left: 0.6rem;
@@ -224,7 +224,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0 3.042640686rem 3.042640686rem 0;
-  border-color: transparent #ee1122 transparent transparent;
+  border-color: transparent #029679 transparent transparent;
 }
 .tile__title::after {
   right: -3.042640686rem;
@@ -232,7 +232,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 3.042640686rem 0 0 3.042640686rem;
-  border-color: transparent transparent transparent #ee1122;
+  border-color: transparent transparent transparent #029679;
 }
 
 .tile__body {
@@ -262,7 +262,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 3.1819805145rem 3.1819805145rem 3.1819805145rem 0;
-  border-color: transparent #ee1122 transparent transparent;
+  border-color: transparent #029679 transparent transparent;
 }
 .tile__body::after {
   right: -6.363961029rem;
@@ -270,7 +270,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 6.363961029rem 6.363961029rem 0 0;
-  border-color: #ee1122 transparent transparent transparent;
+  border-color: #029679 transparent transparent transparent;
 }
 
 .tile__btn {
@@ -327,7 +327,7 @@ h1 {
 }
 h1 > span {
   font-weight: 900;
-  color: #ee1122;
+  color: #029679;
 }
 
 .subtitle {
