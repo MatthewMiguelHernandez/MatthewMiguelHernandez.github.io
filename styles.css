@@ -2,14 +2,17 @@
   box-sizing: border-box;
 }
 
-@font-face {
-    font-family: RoughRakoonin;
-    src: url(../MatthewMiguelHernandez.github.io/Fonts/roughrakoonin.ttf);
-}
-
 body {
   margin: 0px;
   font-family: 'segoe ui';
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #c9de96 0%,#8ab66b 44%,#398235 100%) no-repeat center center fixed; 
+  background-size: cover;
 }
 
 .nav {
@@ -25,7 +28,6 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-family: RoughRakoonin;
   font-size: 22px;
   color: #fff;
   padding: 10px 10px 10px 10px;
